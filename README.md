@@ -12,17 +12,16 @@
 - 熟悉用于创建新指令的命令行
 - 已安装 Visual Studio Code
 
-一、区块链概念简介
-区块链概念简介
-二、了解如何使用Solidity
-了解如何使用Solidity
-三、使用Solidity 编写 Ethereum智能合同
-使用Solidity 编写 Ethereum智能合同
-四、使用OpenZeppelin创建代币
-使用OpenZeppelin创建代币
-五、以太坊基础知识
-区块链网络基础知识
-六、加密钱包和网络的使用
-加密钱包的使用
-七、连接并部署到Ethereum网络
-连接并部署到 Ethereum网络
+## 一、区块链概念简介
+
+## 二、了解如何使用Solidity
+
+## 三、使用Solidity 编写 Ethereum智能合同
+
+## 四、使用OpenZeppelin创建代币
+
+## 五、以太坊基础知识
+
+## 六、加密钱包和网络的使用
+
+## 七、连接并部署到Ethereum网络
