@@ -7,6 +7,7 @@
 - :white_check_mark: **预期成果**：理解区块链的基本概念及其潜在价值。
 - :writing_hand: **作业地址**：[区块链概念简介作业题](https://github.com/RCCCamp/openWeb3/blob/main/08.区块链概念简介作业题.md) 在discord社区✅-区块链概念简介作业题 晒结果
 - :hourglass: **预计时间**：30分钟
+- :tv: **视频地址**：[区块链与智能合约初识](https://meeting.tencent.com/crm/NQW0g6wK79)
 
 ## 任务 :two:: 了解如何使用Solidity
 - :book: **内容概览**：学习Solidity语言的基础，这是编写以太坊智能合约的主要语言。
@@ -40,6 +41,7 @@
 -  :book:**内容概览**：实际操作，将智能合约部署到以太坊网络。
 - :white_check_mark:**预期成果**：能够独立将智能合约部署到以太坊网络。
 - :hourglass:**预计时间**：30分钟
+- :tv: **视频地址**：[部署erc20代币到Sepolia网络](https://meeting.tencent.com/crm/NQBOd7pl07)
 
 **课程收益**
 通过参加这个课程，你将获得以下几点：
