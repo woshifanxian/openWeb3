@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "FallbackCalled",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/合约结构/FallbackExample.sol": "FallbackExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/合约结构/FallbackExample.sol": {
+			"keccak256": "0x7f32c6a98a171c191379b5580ca49de96f8ef05beb8eea3121275a517af40386",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8fa4daab06f05caa2ab2065c42fe0b31c3073a886bc4ad10f99dd9fbbdaa6b06",
+				"dweb:/ipfs/QmXUEaGXxLPp4H4Cu1hgmDmfW1dQXFU2rNFVqdNF82jCnH"
+			]
+		}
+	},
+	"version": 1
+}

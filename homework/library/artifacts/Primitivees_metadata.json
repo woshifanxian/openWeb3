@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/Primitive.sol": "Primitivees"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/Primitive.sol": {
+			"keccak256": "0xcf4e9fdf2807af3bc6b21a62357b042885243e0a2ebf5c633bf103d81352cf85",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://887eb92aa3ba9e89ee76903892bff07c0c76a3c26de8c4c26acd06dcab94b7ba",
+				"dweb:/ipfs/QmUYJaDQhLAL4EprM8C64TniHtDvFyGQgHG1UtiQMTuseQ"
+			]
+		}
+	},
+	"version": 1
+}

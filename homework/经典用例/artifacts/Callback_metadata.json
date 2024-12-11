@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "target",
+						"type": "address"
+					}
+				],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "val",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/经典用例/Storage.sol": "Callback"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/经典用例/Storage.sol": {
+			"keccak256": "0x2b0a884467c4cd807a52a96f7f455779eefb57b334f1c69677eea472a6521912",
+			"urls": [
+				"bzz-raw://c2dc382f1a97c42d5d620ebdae47ad13595161e75a8be703c0ba790ad95d27a9",
+				"dweb:/ipfs/QmSovcs1CU6CwVUnKpEJ9ioL6zDr8GhjcJruwd4mrSuVsN"
+			]
+		}
+	},
+	"version": 1
+}

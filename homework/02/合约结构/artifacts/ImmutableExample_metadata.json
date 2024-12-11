@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_maxBalance",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/合约结构/ImmutableExample.sol": "ImmutableExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/合约结构/ImmutableExample.sol": {
+			"keccak256": "0x2939c39ffc3b845a5d25c68980cd5b2a8b033543f4218780df8ec39762253831",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d7711e22efb034d25dd88b8d48ca38b8b69799eda6301282713c399201f6eecf",
+				"dweb:/ipfs/QmYoVkFoLrZeuTcg56Uibfb1Yh4NYFQxy2o2Ds133Lrb74"
+			]
+		}
+	},
+	"version": 1
+}

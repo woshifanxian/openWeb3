@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/值类型/testOverflow2.sol": "testOverflow2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/值类型/testOverflow2.sol": {
+			"keccak256": "0xc031f207c813ff90344e50d0316e83b5915910282bbe8abd37605e22f581b85f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6198fc3f158ce7dacd94318e5803c617f85a1ff1d574dc6d48375f171a2fa151",
+				"dweb:/ipfs/QmS99hHAdUkUec51XF5gLzSdJgtWv8J9KGHheCdeuzkrux"
+			]
+		}
+	},
+	"version": 1
+}

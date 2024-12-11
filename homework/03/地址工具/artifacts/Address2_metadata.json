@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "isContract",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/03/地址工具/Address2.sol": "Address2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/03/地址工具/Address2.sol": {
+			"keccak256": "0x40313125d0d8323f317ceca9c510ef8f59a7f36aaefacadeed97cc5a1a7395a2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8a02b35f698388a9c1beba7e42d5542ff5744302e122f4068d4c97af9edd2ccc",
+				"dweb:/ipfs/QmUztFjFpFw4298v3W4Fcq9wzH7mwy8qDumrBWUYyropEu"
+			]
+		}
+	},
+	"version": 1
+}

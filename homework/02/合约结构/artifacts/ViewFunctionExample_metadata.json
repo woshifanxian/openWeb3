@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "data",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/合约结构/ViewFunctionExample.sol": "ViewFunctionExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/合约结构/ViewFunctionExample.sol": {
+			"keccak256": "0xa0c3807eda9dcc12ad9d79056ce5f98d342a5676646728c598b9d3e5adbbdcd2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b10a8239e9f24b4f90f86ec87a5e935e9c480396c5d36858b1368d7560648bd7",
+				"dweb:/ipfs/QmUpadxygMFJqjC23LzMrFR5w9ACHUVUqVma7Z8dUxu7M4"
+			]
+		}
+	},
+	"version": 1
+}

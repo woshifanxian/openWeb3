@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/合约结构/ModifierExample.sol": "modifierExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/合约结构/ModifierExample.sol": {
+			"keccak256": "0xf9cc5558955b9fb2da9fd24018342c538da6db1217fbc8fb949f4cec70f4cdb3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1a2345425b88f377a7c7dc5ec68213fe37fefb1b6258bb4ab019f9f4be81a0f4",
+				"dweb:/ipfs/QmUy2wNefPZ9gR1jPa8fJqieinV7Cypmy7Gxuc8SQ3ZvQ4"
+			]
+		}
+	},
+	"version": 1
+}

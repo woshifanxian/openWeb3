@@ -1,0 +1,125 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "createUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_subject",
+						"type": "string"
+					}
+				],
+				"name": "getUserScore",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_subject",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_score",
+						"type": "uint256"
+					}
+				],
+				"name": "updateUserScore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "users",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/结构体/UserStruct.sol": "UserStruct"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/结构体/UserStruct.sol": {
+			"keccak256": "0xde0806e2256eb302a2d2c3fd7b7e59fef2cbc62716ae1a597fa35c965bb37b99",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e8f900cef872b2ac53aaab9f36f58214529d771dfcfeb7a7e39fc1abb6720d30",
+				"dweb:/ipfs/QmcWG6kexB22c2uVrYZuNo7dnErrEVJHwFS2zZmtzRBTWf"
+			]
+		}
+	},
+	"version": 1
+}

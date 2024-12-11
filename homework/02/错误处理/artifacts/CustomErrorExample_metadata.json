@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "caller",
+						"type": "address"
+					}
+				],
+				"name": "Unauthorized",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "restrictedFunction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/错误处理/CustomErrorExample.sol": "CustomErrorExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/错误处理/CustomErrorExample.sol": {
+			"keccak256": "0x8285524fd7b7070f24a3008c93a9db7bc2b269d417f3eb03b00d66b936bfc3fe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9f0ec54fbfd822d989e70e6f3fa31abc5ce9d6d04779a1ad3e367acdd2b228a3",
+				"dweb:/ipfs/QmZoKWKL63DaPKmJnCckd55iVp9uEsEFYLNGopj79zHABV"
+			]
+		}
+	},
+	"version": 1
+}

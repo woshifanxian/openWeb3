@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "newValue",
+						"type": "uint256"
+					}
+				],
+				"name": "DataChanged",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "data",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_data",
+						"type": "uint256"
+					}
+				],
+				"name": "setData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/合约结构/EventExample.sol": "EventExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/合约结构/EventExample.sol": {
+			"keccak256": "0x55c3634444dfcb621986a57ed069184760c1cdfe3055db8cba164291a8ad5bec",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f766cf05616b9babec1b3daafe34af1e5369ac34a0d3f18110cc90eb23df6923",
+				"dweb:/ipfs/QmNvDspG6fmR463cj35CGiJ8fcyFGeHxahU4BmAecHnEMd"
+			]
+		}
+	},
+	"version": 1
+}

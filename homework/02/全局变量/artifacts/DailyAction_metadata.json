@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "lastActionTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "performAction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/全局变量/DailyAction.sol": "DailyAction"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/全局变量/DailyAction.sol": {
+			"keccak256": "0x3b7d111e6c8934d934119a11beda5d3e5b41ab7567f911e0d2605cb37fd60a45",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6342b8c33984393bbbbf8507f1448f558d52f4cdf3a826d7d87042b2d0f1fb26",
+				"dweb:/ipfs/QmReU1bFVWiDJ7VHSMcBGLpuzBJXYy2CPY4JfZBWUoaBLX"
+			]
+		}
+	},
+	"version": 1
+}

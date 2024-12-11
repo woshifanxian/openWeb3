@@ -1,0 +1,124 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newBalance",
+						"type": "uint256"
+					}
+				],
+				"name": "addBalances",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "userAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "newBalance",
+						"type": "uint256"
+					}
+				],
+				"name": "addUserBalances",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "queryBalances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "userAddress",
+						"type": "address"
+					}
+				],
+				"name": "queryUserBalances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sortUserBalances",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/映射/UserBalanceManagerment.sol": "UserBalanceManagerment"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/映射/UserBalanceManagerment.sol": {
+			"keccak256": "0x78ffea1df271ed0571c76b99ecde08f23b3f452c7fa924869450110bfcff409e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cae756cd45467154d81d0fa5d4f471d22abbcd48482cded970b84eee77748361",
+				"dweb:/ipfs/QmSpMHA4MdmqAJvubJrbZ6mosntU2NgaD9gUaoPTZ9QRra"
+			]
+		},
+		"homework/library/IterableMapping.sol": {
+			"keccak256": "0xdaa8fa8b5be3109b06cd9145661f3f6ac21db40db559cc4ba347414eb444bb81",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d927a0320d8587ea0d46bd17c9a447c2c1cbf54372d804c93afc3f9a4929a84",
+				"dweb:/ipfs/QmRd22u3bsrhzM5btSJkZmDqsRf1xLw6KLP8AcFDMGeg16"
+			]
+		}
+	},
+	"version": 1
+}

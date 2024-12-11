@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "send",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/03/地址工具/MyToken.sol": "MyToken"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/utils/Address.sol": {
+			"keccak256": "0x9d8da059267bac779a2dbbb9a26c2acf00ca83085e105d62d5d4ef96054a47f5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c78e2aa4313323cecd1ef12a8d6265b96beee1a199923abf55d9a2a9e291ad23",
+				"dweb:/ipfs/QmUTs2KStXucZezzFo3EYeqYu47utu56qrF7jj1Gue65vb"
+			]
+		},
+		"@openzeppelin/contracts/utils/Errors.sol": {
+			"keccak256": "0x6afa713bfd42cf0f7656efa91201007ac465e42049d7de1d50753a373648c123",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ba1d02f4847670a1b83dec9f7d37f0b0418d6043447b69f3a29a5f9efc547fcf",
+				"dweb:/ipfs/QmQ7iH2keLNUKgq2xSWcRmuBE5eZ3F5whYAkAGzCNNoEWB"
+			]
+		},
+		"homework/03/地址工具/Address2.sol": {
+			"keccak256": "0x40313125d0d8323f317ceca9c510ef8f59a7f36aaefacadeed97cc5a1a7395a2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8a02b35f698388a9c1beba7e42d5542ff5744302e122f4068d4c97af9edd2ccc",
+				"dweb:/ipfs/QmUztFjFpFw4298v3W4Fcq9wzH7mwy8qDumrBWUYyropEu"
+			]
+		},
+		"homework/03/地址工具/MyToken.sol": {
+			"keccak256": "0xa4e5999b2d2a735f4dc2732463056122932b32689dc914eb5050098d4dc822ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1b067d7d4105b560b55a3a653116841d227062d483851d241179f14ec2d19440",
+				"dweb:/ipfs/QmYJqkNdGUfE3bcQupwQrScJF1FMFu1CVgVsDWgXPTjVKH"
+			]
+		}
+	},
+	"version": 1
+}

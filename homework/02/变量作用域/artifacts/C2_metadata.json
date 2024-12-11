@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/变量作用域/C1.sol": "C2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hardhat/console.sol": {
+			"keccak256": "0xf2560b5386574153057104d19a9e68a32ee912cf23c0c8df1fe9a0607f42d543",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a63166e036b040826baa513772451a79925daa304b38749100efb089ac07cdc2",
+				"dweb:/ipfs/QmUtMTxUFKU6a5oFXsEJnTPvb3QPb7GDDmSv5yZ1jFHDwR"
+			]
+		},
+		"homework/02/变量作用域/C1.sol": {
+			"keccak256": "0x12af51d45b716021c23dff8fc4da19d28618bacea1e72648c3a9871ccf3641f7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0a89ef732d2e2fc22f42b9919873be5fce9e02b24068f252b8c8dd645a92023a",
+				"dweb:/ipfs/QmcCPdEPPf3CvNbzN9pZB2WcCYeSv9VFomh4gWuzQCDcov"
+			]
+		}
+	},
+	"version": 1
+}

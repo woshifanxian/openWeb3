@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getResult",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/变量/SolidityTest2.sol": "SolidityTest2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/变量/SolidityTest2.sol": {
+			"keccak256": "0xa1f201198714afffcee9e358dea4063b7e333e292e74c2c72402544118ca92f1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d8df09968599a0f4c4197fe872024a95c6833227425a9fa97fb720b412c6607e",
+				"dweb:/ipfs/QmUdPEVyuwbgNUqpSJRZpBuKwK8Kfw839jzUri7qjuQjqb"
+			]
+		}
+	},
+	"version": 1
+}

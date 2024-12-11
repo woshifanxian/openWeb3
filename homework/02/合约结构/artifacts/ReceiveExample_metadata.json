@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Received",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/合约结构/ReceiveExample.sol": "ReceiveExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/合约结构/ReceiveExample.sol": {
+			"keccak256": "0x1d1bff9d220b3d05ababd5f9dc485737bd4a5cf7dba9521668366548a1341a34",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b3a60f5cf39ed2f06052403b90b1d608a047382216e150f591679c3d10c58cd6",
+				"dweb:/ipfs/Qmc5YW3xLBHBuHvqbiuWNmDGTUzqatLtuj4Uf8AYD16TDD"
+			]
+		}
+	},
+	"version": 1
+}

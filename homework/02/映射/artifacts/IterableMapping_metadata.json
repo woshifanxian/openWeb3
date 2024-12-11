@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/映射/IterableMapping.sol": "IterableMapping"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/映射/IterableMapping.sol": {
+			"keccak256": "0x91ba4f65a4872fb35a8888140689f05cebce3a349a969a9fb5416fa4fd387ee8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b8b37072cb903312f853e6f32e36a708a173b5c1268b11fda75fedfa8276e619",
+				"dweb:/ipfs/QmVrFQK4bA8TKRWeHrzz9MstBvLa4JuGbvVXoAbeUcNRF7"
+			]
+		}
+	},
+	"version": 1
+}

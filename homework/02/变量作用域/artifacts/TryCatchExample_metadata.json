@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contractAddress",
+						"type": "address"
+					}
+				],
+				"name": "tryCatchDemo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/变量作用域/TryCatchExample.sol": "TryCatchExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"hardhat/console.sol": {
+			"keccak256": "0xf2560b5386574153057104d19a9e68a32ee912cf23c0c8df1fe9a0607f42d543",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a63166e036b040826baa513772451a79925daa304b38749100efb089ac07cdc2",
+				"dweb:/ipfs/QmUtMTxUFKU6a5oFXsEJnTPvb3QPb7GDDmSv5yZ1jFHDwR"
+			]
+		},
+		"homework/02/变量作用域/TryCatchExample.sol": {
+			"keccak256": "0xad11c86fc26df1170365375b2f1659c40c1b296d3543d5bab26fbcebbed75ec5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://68a07f6997a7624779f4d163a56a28e0199dc17244a654a494239c519bed2ee5",
+				"dweb:/ipfs/QmVywQgya1PXHHLgzJciqbNp8dxfJWC3u8RU7WMra9Gdyj"
+			]
+		}
+	},
+	"version": 1
+}

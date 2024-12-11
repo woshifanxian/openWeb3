@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "hash",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					}
+				],
+				"name": "Registered",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "hash",
+						"type": "uint256"
+					}
+				],
+				"name": "register",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/变量/GAS优化/Registry.sol": "DocumentRegistry"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/变量/GAS优化/Registry.sol": {
+			"keccak256": "0xd83e8a38f32bcf2392ccc899847a4a5b9fdb5208f192695fe6b59f655df10d1f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1a0ed37759fd5180ea214756c58e382f1184616717c560ed125008ad6afe6466",
+				"dweb:/ipfs/QmTEgzQNoakiazxJRtpHpfZgnHscVx7YFPY6evXHm1GrDp"
+			]
+		}
+	},
+	"version": 1
+}

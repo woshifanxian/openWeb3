@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "target",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "execute",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/ABI/Task.sol": "Task"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/ABI/Task.sol": {
+			"keccak256": "0x811cb735af08d065a9bb7e5d56b3d2ae87f57ddb7e40e50594d21f78c13e1c07",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f799843bb02b4217c99bfed1f2203e3917ccc617898bcf00e35dce3d13e5b194",
+				"dweb:/ipfs/QmNU51CefGZswBrXJRTsqSVAgHMRbLuHzdCQ6FdFXmHUQR"
+			]
+		}
+	},
+	"version": 1
+}

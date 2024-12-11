@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/合约结构/ConstantsExample.sol": "ConstantsExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/合约结构/ConstantsExample.sol": {
+			"keccak256": "0x74a37da57cc63583cc67983551ddc66934a49534e062910b75ad00e6ad6f905a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fccc15d6347675954d17f298f05bba157f698a1221bc83ac39eca46311bcb89e",
+				"dweb:/ipfs/QmXJ6kVn1rvcX2sDzo6WZeH5AbwrmMo4XeVqNP5ZyJZ7LF"
+			]
+		}
+	},
+	"version": 1
+}

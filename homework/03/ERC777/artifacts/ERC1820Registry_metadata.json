@@ -1,0 +1,259 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "bytes32",
+						"name": "interfaceHash",
+						"type": "bytes32"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "implementer",
+						"type": "address"
+					}
+				],
+				"name": "InterfaceImplementerSet",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newManager",
+						"type": "address"
+					}
+				],
+				"name": "ManagerChanged",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "_interfaceHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "getInterfaceImplementer",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "getManager",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes4",
+						"name": "_interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "implementsERC165Interface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes4",
+						"name": "_interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "implementsERC165InterfaceNoCache",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_interfaceName",
+						"type": "string"
+					}
+				],
+				"name": "interfaceHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "_interfaceHash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "_implementer",
+						"type": "address"
+					}
+				],
+				"name": "setInterfaceImplementer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_newManager",
+						"type": "address"
+					}
+				],
+				"name": "setManager",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes4",
+						"name": "_interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "updateERC165Cache",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/03/ERC777/REC1820Registry.sol": "ERC1820Registry"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/03/ERC777/REC1820Registry.sol": {
+			"keccak256": "0xd0da85ddd622b31382e77e4a088a28e3716353c22b3beb6fe0932e5b55a89e6c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3b467f6a6254ed8cc5f9bbcbddf8fc8850d7f96e3bbd64156abad427d91182d6",
+				"dweb:/ipfs/QmTkvenNiAYgYSxKts97CATR489CjczPZZLHM9KtVrYZMf"
+			]
+		}
+	},
+	"version": 1
+}

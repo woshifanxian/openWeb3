@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/library/SafeMathExternal.sol": "SafeMathExternal"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/library/SafeMathExternal.sol": {
+			"keccak256": "0xd927f9013e2c3315b6841f3069dcf66b4e26007a451d2db63a81d570306e3226",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://08dfe496e95a3cf2b4103d58fe136cba721fc5157aabcedf6f1793089c1483d9",
+				"dweb:/ipfs/QmedAUawJA26STsqKmDhhYURbQFM3GL8LLepurcmF7biww"
+			]
+		}
+	},
+	"version": 1
+}

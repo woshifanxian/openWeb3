@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "drive",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/继承/Car.sol": "Car"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/继承/Car.sol": {
+			"keccak256": "0x673bbf05054ab440800b0d8922f1718a78c9bac86d5a9e9b8a20d0b696319b40",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://26c15d4bf1374bc9e17f13e62f5b9fa29780a2572acf03bccc7953fd01a52bcd",
+				"dweb:/ipfs/QmbGHmtDxVNgWWXsCunMHLXhYybxvxjbWApizHmxWWvpnV"
+			]
+		}
+	},
+	"version": 1
+}

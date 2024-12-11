@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "append",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_old",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_new",
+						"type": "uint256"
+					}
+				],
+				"name": "replace",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/library/Search.sol": "C"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/library/Search.sol": {
+			"keccak256": "0xa3cfdb1c596c595717c762cc6a7ec3910d2db8393dcb9d0c0fd7e36cc2c7979c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://488a6646d46dc1bba3cf9c8b88b76eb363fceb335892045a25a359193a66acd4",
+				"dweb:/ipfs/QmWMdn3Lq99JfjEm7w8qAjVqAwFXCzxV3SQz3k7k6HsaEH"
+			]
+		}
+	},
+	"version": 1
+}

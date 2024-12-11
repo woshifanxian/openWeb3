@@ -1,0 +1,116 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "data",
+						"type": "uint256[]"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "data",
+						"type": "uint256[]"
+					}
+				],
+				"name": "del",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "dynamicAddressData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "uint256[3]",
+						"name": "",
+						"type": "uint256[3]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/数组/AddressArrayOperations.sol": "AddressArrayOperations"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/数组/AddressArrayOperations.sol": {
+			"keccak256": "0x2d641aaf98bf05c1e65bc3acfd1ea01c6b7d294c5211714bddd2f27e62c893c7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://df965951136c3dd6a1c91c7f0681a2dfdec99720b429763f10e70bfe28f534e1",
+				"dweb:/ipfs/QmbdFyUp1Z9maqzeZdPHt8gEZobVYcXqHfZ2KWhcv1rmYs"
+			]
+		}
+	},
+	"version": 1
+}

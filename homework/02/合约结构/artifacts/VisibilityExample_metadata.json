@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "data",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/合约结构/VisibilityExample.sol": "VisibilityExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/合约结构/VisibilityExample.sol": {
+			"keccak256": "0xb962142736ddf66e780ca0c9510fbb74c5268536a6de7a1a1cefd416a4367157",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d4f841fe51a5ca876f4fc9ccb67d9c76c969a13b273b4f1856848288bf8e38d",
+				"dweb:/ipfs/QmaYfxYJi1Cp5eMdqUyjY8u5g734gjJtmbGtULBMnArdFZ"
+			]
+		}
+	},
+	"version": 1
+}

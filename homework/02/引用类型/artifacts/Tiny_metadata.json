@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "memoryArray",
+						"type": "uint256[]"
+					}
+				],
+				"name": "f",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"name": "h",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/引用类型/Tiny.sol": "Tiny"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/引用类型/Tiny.sol": {
+			"keccak256": "0xef9a73446451e3c659282c1282253f29657d0ad14a2890b7269e8247485f2160",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7b36641773b2f334a6f7e6523342254cc55fb725fa5fdd367b1a8618c6f820a9",
+				"dweb:/ipfs/QmZEo8KdTJDxCtE1SjkxuW8gSy6Ey94PvxrJHpDxC5fKiT"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,352 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "bytes32",
+						"name": "interfaceHash",
+						"type": "bytes32"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "implementer",
+						"type": "address"
+					}
+				],
+				"name": "InterfaceImplementerSet",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newManager",
+						"type": "address"
+					}
+				],
+				"name": "ManagerChanged",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "_interfaceHash",
+						"type": "bytes32"
+					}
+				],
+				"name": "getInterfaceImplementer",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "getManager",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes4",
+						"name": "_interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "implementsERC165Interface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes4",
+						"name": "_interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "implementsERC165InterfaceNoCache",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_interfaceName",
+						"type": "string"
+					}
+				],
+				"name": "interfaceHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "_interfaceHash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "_implementer",
+						"type": "address"
+					}
+				],
+				"name": "setInterfaceImplementer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_newManager",
+						"type": "address"
+					}
+				],
+				"name": "setManager",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes4",
+						"name": "_interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "updateERC165Cache",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"getInterfaceImplementer(address,bytes32)": {
+					"params": {
+						"_addr": "Address being queried for the implementer of an interface. (If '_addr' is the zero address then 'msg.sender' is assumed.)",
+						"_interfaceHash": "Keccak256 hash of the name of the interface as a string. E.g., 'web3.utils.keccak256(\"ERC777TokensRecipient\")' for the 'ERC777TokensRecipient' interface."
+					},
+					"returns": {
+						"_0": "The address of the contract which implements the interface '_interfaceHash' for '_addr' or '0' if '_addr' did not register an implementer for this interface."
+					}
+				},
+				"getManager(address)": {
+					"params": {
+						"_addr": "Address for which to return the manager."
+					},
+					"returns": {
+						"_0": "Address of the manager for a given address."
+					}
+				},
+				"implementsERC165Interface(address,bytes4)": {
+					"params": {
+						"_contract": "Address of the contract to check.",
+						"_interfaceId": "ERC165 interface to check."
+					},
+					"returns": {
+						"_0": "True if '_contract' implements '_interfaceId', false otherwise."
+					}
+				},
+				"implementsERC165InterfaceNoCache(address,bytes4)": {
+					"params": {
+						"_contract": "Address of the contract to check.",
+						"_interfaceId": "ERC165 interface to check."
+					},
+					"returns": {
+						"_0": "True if '_contract' implements '_interfaceId', false otherwise."
+					}
+				},
+				"interfaceHash(string)": {
+					"params": {
+						"_interfaceName": "Name of the interface."
+					},
+					"returns": {
+						"_0": "The keccak256 hash of an interface name."
+					}
+				},
+				"setInterfaceImplementer(address,bytes32,address)": {
+					"params": {
+						"_addr": "Address for which to set the interface. (If '_addr' is the zero address then 'msg.sender' is assumed.)",
+						"_implementer": "Contract address implementing '_interfaceHash' for '_addr'.",
+						"_interfaceHash": "Keccak256 hash of the name of the interface as a string. E.g., 'web3.utils.keccak256(\"ERC777TokensRecipient\")' for the 'ERC777TokensRecipient' interface."
+					}
+				},
+				"setManager(address,address)": {
+					"params": {
+						"_addr": "Address for which to set the new manager.",
+						"_newManager": "Address of the new manager for 'addr'. (Pass '0x0' to reset the manager to '_addr'.)"
+					}
+				},
+				"updateERC165Cache(address,bytes4)": {
+					"params": {
+						"_contract": "Address of the contract for which to update the cache.",
+						"_interfaceId": "ERC165 interface for which to update the cache."
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"events": {
+				"InterfaceImplementerSet(address,bytes32,address)": {
+					"notice": "Indicates a contract is the 'implementer' of 'interfaceHash' for 'addr'."
+				},
+				"ManagerChanged(address,address)": {
+					"notice": "Indicates 'newManager' is the address of the new manager for 'addr'."
+				}
+			},
+			"kind": "user",
+			"methods": {
+				"getInterfaceImplementer(address,bytes32)": {
+					"notice": "Query if an address implements an interface and through which contract."
+				},
+				"getManager(address)": {
+					"notice": "Get the manager of an address."
+				},
+				"implementsERC165InterfaceNoCache(address,bytes4)": {
+					"notice": "Checks whether a contract implements an ERC165 interface or not without using nor updating the cache."
+				},
+				"interfaceHash(string)": {
+					"notice": "Compute the keccak256 hash of an interface given its name."
+				},
+				"setInterfaceImplementer(address,bytes32,address)": {
+					"notice": "Sets the contract which implements a specific interface for an address. Only the manager defined for that address can set it. (Each address is the manager for itself until it sets a new manager.)"
+				},
+				"setManager(address,address)": {
+					"notice": "Sets '_newManager' as manager for '_addr'. The new manager will be able to call 'setInterfaceImplementer' for '_addr'."
+				},
+				"updateERC165Cache(address,bytes4)": {
+					"notice": "Updates the cache with whether the contract implements an ERC165 interface or not."
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/03/ERC777/REC.sol": "REC"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/03/ERC777/REC.sol": {
+			"keccak256": "0xda1c8687f02b2ccf4647342d885d0b078043aa65fda81e948471a60f43cdb276",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fe9d4aaccfa8e53305a58826f5ddf52b5a1672b09271970908c921b5c93c09ad",
+				"dweb:/ipfs/QmX54zNmuTyDRDn6DqTifCAnF2n4tQpjWdnXabxJryV5Br"
+			]
+		}
+	},
+	"version": 1
+}

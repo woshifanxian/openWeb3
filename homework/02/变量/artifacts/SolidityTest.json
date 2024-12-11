@@ -1,0 +1,73 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {
+				"@_11": {
+					"entryPoint": null,
+					"id": 11,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600e575f80fd5b50600a5f81905550603e8060215f395ff3fe60806040525f80fdfea26469706673582212202ae040be8769c2be92d853a23ca5693ea057bda5cba3116f03dcdcd665e0f13664736f6c634300081a0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 DUP1 REVERT JUMPDEST POP PUSH1 0xA PUSH0 DUP2 SWAP1 SSTORE POP PUSH1 0x3E DUP1 PUSH1 0x21 PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x2A 0xE0 BLOCKHASH 0xBE DUP8 PUSH10 0xC2BE92D853A23CA5693E LOG0 JUMPI 0xBD 0xA5 0xCB LOG3 GT PUSH16 0x3DCDCD665E0F13664736F6C63430008 BYTE STOP CALLER ",
+			"sourceMap": "138:146:0:-:0;;;207:75;;;;;;;;;;251:2;238:10;:15;;;;138:146;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "60806040525f80fdfea26469706673582212202ae040be8769c2be92d853a23ca5693ea057bda5cba3116f03dcdcd665e0f13664736f6c634300081a0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x2A 0xE0 BLOCKHASH 0xBE DUP8 PUSH10 0xC2BE92D853A23CA5693E LOG0 JUMPI 0xBD 0xA5 0xCB LOG3 GT PUSH16 0x3DCDCD665E0F13664736F6C63430008 BYTE STOP CALLER ",
+			"sourceMap": "138:146:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12400",
+				"executionCost": "22177",
+				"totalCost": "34577"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		}
+	]
+}

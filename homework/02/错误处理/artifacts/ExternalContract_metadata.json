@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "willRevert",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/错误处理/ExternalContract.sol": "ExternalContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/错误处理/ExternalContract.sol": {
+			"keccak256": "0x3eb5a89290dbe7ba0ad379acf88469e5e717e20cf12c62a93ebd52b99c302f93",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1e187bb2770e3df708c5a758c70da2cf948a7319d2655ffc722162b3d6a09b75",
+				"dweb:/ipfs/QmUwdDLoRC8Lq6xQ8gTekVzXdhnr37Pt5LhscKL5xoYhCT"
+			]
+		}
+	},
+	"version": 1
+}

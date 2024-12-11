@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "interfaceHash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "canImplementInterfaceForAddress",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"canImplementInterfaceForAddress(bytes32,address)": {
+					"params": {
+						"addr": "Address for which the contract will implement the interface",
+						"interfaceHash": "keccak256 hash of the name of the interface"
+					},
+					"returns": {
+						"_0": "ERC1820_ACCEPT_MAGIC only if the contract implements 'interfaceHash' for the address 'addr'."
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"canImplementInterfaceForAddress(bytes32,address)": {
+					"notice": "Indicates whether the contract implements the interface 'interfaceHash' for the address 'addr' or not."
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/03/ERC777/REC1820Registry.sol": "ERC1820ImplementerInterface"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/03/ERC777/REC1820Registry.sol": {
+			"keccak256": "0xd0da85ddd622b31382e77e4a088a28e3716353c22b3beb6fe0932e5b55a89e6c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3b467f6a6254ed8cc5f9bbcbddf8fc8850d7f96e3bbd64156abad427d91182d6",
+				"dweb:/ipfs/QmTkvenNiAYgYSxKts97CATR489CjczPZZLHM9KtVrYZMf"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/03/ERC20/Counter.sol": "Counter"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/03/ERC20/Counter.sol": {
+			"keccak256": "0x0a2dd5bd19076ddedc15194736888fa2f0626f4e4aa8ba681128dbb567e916e3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8efa80a5022080bd289f44c6aedd5a2dec77b3ae290d75f875403d6240611203",
+				"dweb:/ipfs/QmPnCwKCKZCnmdnid8TuoEvLscdwrL3GvFQ5EumPkYVRdm"
+			]
+		}
+	},
+	"version": 1
+}

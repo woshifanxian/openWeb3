@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/ABI/Counter.sol": "Counter"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/ABI/Counter.sol": {
+			"keccak256": "0xece4539a2a50fa9fec7b33e389755f49ad5b4ccb60958f6de3585d91f9521106",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7ab17635f66d7e45398ed528272913be5d3dca19cae2ab36b61f250325af293b",
+				"dweb:/ipfs/QmbJZ1RBdeBsArJj41vt8EskJ76XiJsadh9omjfKtPDi7L"
+			]
+		}
+	},
+	"version": 1
+}

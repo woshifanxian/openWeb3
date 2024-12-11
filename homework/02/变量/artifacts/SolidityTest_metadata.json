@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/02/变量/SolidityTest.sol": "SolidityTest"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/02/变量/SolidityTest.sol": {
+			"keccak256": "0x2574ac9feeaf60a2d3fc6c73c7b531dc8544c31d71ea3e0daabcc361c343989d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2753d74302274d9d01cea3bf707ef4b34411120237201b60d5a5f1a78e2666fa",
+				"dweb:/ipfs/QmbBRbVmZsqCcz6c25GkZhrdZeCbrCtmP1Drh1CHhe7JRq"
+			]
+		}
+	},
+	"version": 1
+}
