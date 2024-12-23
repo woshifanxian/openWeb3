@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_contractBAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "contractB",
+				"outputs": [
+					{
+						"internalType": "contract ContractB",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getValueFromContractB",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "setValueInContractB",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/level-02/05.Solidity 编码规范、高级特性/ContractA.sol": "ContractA"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/level-02/05.Solidity 编码规范、高级特性/ContractA.sol": {
+			"keccak256": "0xa142b03a0b423a4e72d1abeaa1a76b03c6bb297203cc3e69be373235a97fc780",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://0d54ea5afa5b1ef13c07f414c2d868fbcbedfd8aad570f6933538fd065d522c9",
+				"dweb:/ipfs/Qmf7v7eMYFbDYcCYFdirUv42zXWzN1rf3D57paHtdRQtVh"
+			]
+		},
+		"homework/level-02/05.Solidity 编码规范、高级特性/ContractB.sol": {
+			"keccak256": "0x3cbd61b24f7c776786ad31287e205b325adc7aa608eb128c730adc4052809ff1",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://db27bc6602529ff3f5506278a03ea121f8148f430755aea346eb7fd6caf1366f",
+				"dweb:/ipfs/QmZdfd7ZYvkv8YwgCSeq5AwZ5dbjXXdTjfF4WJCZVapqGs"
+			]
+		}
+	},
+	"version": 1
+}

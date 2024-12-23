@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/level-02/05.Solidity 编码规范、高级特性/MyContract.sol": "MyContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/level-02/05.Solidity 编码规范、高级特性/MyContract.sol": {
+			"keccak256": "0xedf9241b4bde0ed9f06254590fbd024adba8e8496930d26e529a63fd599009af",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://041f967b0071fa1a6199bff9876304ef6ac58855f6cddab5eab6f44315bde869",
+				"dweb:/ipfs/QmbbQx6zczr2ysH2ebjpQwKywku4fHcm47ydL7dEMGAnex"
+			]
+		}
+	},
+	"version": 1
+}

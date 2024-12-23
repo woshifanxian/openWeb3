@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "calculatedFibNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "setFibonacci",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_start",
+						"type": "uint256"
+					}
+				],
+				"name": "setStart",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "start",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/level-02/05.Solidity 编码规范、高级特性/FibonacciLib.sol": "FibonacciLib"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/level-02/05.Solidity 编码规范、高级特性/FibonacciLib.sol": {
+			"keccak256": "0x9dd8a68f98ac957a59e10450efaeeadd5283a06c1ead9100d6cb600cea5f3ca3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d0f173e2ce61c80a8433ff4d92767306ee2bca58f220ee9853e208da4c224857",
+				"dweb:/ipfs/QmbV1mhGLqczAxr3ig8csTvhYwFAnpUoJDJeArtpAXhPAr"
+			]
+		}
+	},
+	"version": 1
+}
