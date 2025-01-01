@@ -6,7 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "initialSupply",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -512,11 +518,11 @@
 	},
 	"sources": {
 		"homework/03/ERC20/MyToken.sol": {
-			"keccak256": "0xd5559533c017fd5b49d2d4cdd0b27cd5225a901842349c2ea311817b96fc4dd2",
+			"keccak256": "0x4b6d2686d4cdf2a06e588b1cf19743bb7812666f600cfd23b2287d2496657b98",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ae5e4a6b40e08ca46711503ecdc0096b4fe37f819ebaf7a3a8813b35fd9131a3",
-				"dweb:/ipfs/QmR43FeDRgaSV79uqFTEQ3nh5LxRFvpC7RECe241Zj3ynW"
+				"bzz-raw://026c3225aef92ee9b79bcc463a61e533350857b727dce26e41b98caa922c569d",
+				"dweb:/ipfs/QmPApbqAUUmFVvFZ1qohKzDV7bwZaqcqzGY8kC6P9ZmZR5"
 			]
 		},
 		"homework/library/openzeppelin-contracts-5.1.0/openzeppelin-contracts-5.1.0/contracts/interfaces/draft-IERC6093.sol": {

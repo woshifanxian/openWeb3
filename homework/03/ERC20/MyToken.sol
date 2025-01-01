@@ -8,7 +8,10 @@ contract MyToken is ERC20("aaa", "bb") {
     event Deposit(address indexed dst, uint256 wad);
     event Withdrawal(address indexed src, uint256 wad);
 
-    constructor() public  {}
+    constructor(uint256 initialSupply){
+        // 初始化代币总量，分配给合约创建者
+        _mint(msg.sender, initialSupply * (10 ** decimals()));
+    }
 
     function totalSupply() public view override  returns (uint256) {
         return address(this).balance;

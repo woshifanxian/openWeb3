@@ -51,7 +51,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"homework/02/变量/GAS优化/Registry.sol": "DocumentRegistry"
+			"homework/01/GAS优化/Registry.sol": "DocumentRegistry"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -65,7 +65,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"homework/02/变量/GAS优化/Registry.sol": {
+		"homework/01/GAS优化/Registry.sol": {
 			"keccak256": "0xd83e8a38f32bcf2392ccc899847a4a5b9fdb5208f192695fe6b59f655df10d1f",
 			"license": "MIT",
 			"urls": [

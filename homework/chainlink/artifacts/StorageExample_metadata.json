@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint96",
+						"name": "",
+						"type": "uint96"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					},
+					{
+						"internalType": "uint96",
+						"name": "_balance",
+						"type": "uint96"
+					}
+				],
+				"name": "setValues",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "user",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework/chainlink/StorageExample.sol": "StorageExample"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"homework/chainlink/StorageExample.sol": {
+			"keccak256": "0x85f91d74556a34d19d2961b71723e6bc63239ce02db3adbc31ce8e49ed1dd509",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://83ad14fe941fcb8c75b00576dc9f507a5bedfb5bac22cc75164def6284d2598c",
+				"dweb:/ipfs/QmfMXfjMDkKh7TiMxFxW3Zz6iGoZ8KVUUSVTAV9PbkfhEL"
+			]
+		}
+	},
+	"version": 1
+}
